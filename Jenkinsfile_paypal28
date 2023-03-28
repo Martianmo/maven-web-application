@@ -1,4 +1,4 @@
-pipeline{
+node{
  def mavenHome = tool name: 'maven'   
  stage('1cloneCode'){
     sh "echo running a software build and deployment project for payPal"
